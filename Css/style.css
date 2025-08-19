@@ -1,0 +1,786 @@
+*{
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    position: fixed;
+    background-color: black;
+    font-size: 20px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+nav a{
+    position: absolute;
+    padding: 20px 7%;
+    font-size: 20px;
+    
+}
+
+.Link1{
+    color: white;
+    margin-left: 650px;
+
+}
+
+.Link2{
+    color: white;
+    margin-left: 750px;
+
+}
+
+.Link3{
+    color: white;
+    margin-left: 870px;
+
+}
+
+.Link4{
+    color: white;
+    margin-left: 965px;
+
+}
+
+.Link5{
+    color: white;
+    margin-left: 1065px;
+
+}
+
+.SignUp{
+    position: fixed;
+    font-size: 25px;
+    padding: 15px 32px;
+    margin-left: 1300px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 25px;
+    color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+}
+
+.SignUp:hover{
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    background-color: rgb(0, 64, 255);
+    color: rgb(206, 206, 206);
+}
+
+
+.Logo{
+    position: fixed;
+    padding: 0px 5%; 
+    color: darkblue;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 0px 0px 20px rgb(1, 50, 200);
+    
+}
+
+.Logo:hover{
+    font-size: 57px;
+    text-shadow: 0px 0px 30px rgb(1, 50, 200);
+}
+
+.More{
+    position: fixed;
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top:  145px;
+}
+
+.More:hover{
+    box-shadow  : 0px 0px 40px rgb(0, 64, 255);
+    margin-top: 135px;
+}
+
+.Button{
+    position: fixed;
+    font-size: 25px;
+    padding: 0.8rem 1.8rem;
+    margin-left: 704px;
+    margin-top: 530px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 15px;
+    color: darkblue;
+    letter-spacing: 3px;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+
+}
+
+.Button:hover{
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    background-color: rgb(0, 64, 255);
+    color: rgb(206, 206, 206);
+}
+
+.Ab{
+    position: fixed;
+    font-size: 14px;
+    margin-left: 700px;
+    margin-top: 320px;
+}
+
+.hi{
+    position: fixed;
+    color: white;
+    font-size: 55px;
+    margin-left: 700px;
+    margin-top: 170px;
+}
+
+.hi span{
+    color: darkblue;
+    text-shadow: 0px 0px 20px rgb(1, 50, 200);
+}
+
+.I-Am{
+    position: fixed;
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 250px;
+}
+
+.I-Am span{
+    position: fixed;
+    font-size: 55px;
+    margin-left: 17px;
+    color: darkblue;
+    text-shadow: 0px 0px 20px rgb(1, 50, 200);
+}
+
+.Link1:hover , .Link2:hover , .Link3:hover , .Link4:hover , .Link5:hover{
+    color: darkblue;
+    font-size: 21px;
+    text-decoration: underline 2px;
+}
+
+.Link1:active , .Link2:active , .Link3:active , .Link4:active , .Link5:active{
+    color: darkblue;
+    text-decoration: underline 2px;
+}
+
+.Home-Page .Link1 , .Services-Page .Link2 , .Skills-Page .Link3 , .About-Page .Link4 , .Contact-Page .Link5{
+    color: darkblue;
+    text-decoration: underline 2px;
+}
+
+
+
+
+.Game1{
+    position: fixed;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 50%;
+    margin-left: 1064px;
+    margin-top: 407px;
+}
+
+.Game2{
+    position: fixed;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 50%;
+    margin-left: 944px;
+    margin-top: 407px;
+}
+
+.Game3{
+    position: fixed;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 50%;
+    margin-left: 824px;
+    margin-top: 407px;
+}
+
+.Game4{
+    position: fixed;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 50%;
+    margin-left: 704px;
+    margin-top: 407px;
+}
+
+.Game1:hover , .Game2:hover , .Game3:hover , .Game4:hover{
+    background-color: darkblue;
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    margin-top: 397px;
+}
+
+
+/*! This Is About Section */
+
+.About{
+    position: fixed;
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: 195px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 41%;
+
+}
+
+.title{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 705px;
+    margin-top: 70px;
+    
+}
+
+.title span{
+    color: darkblue;
+}
+
+.About span , .About span span , .About span span span , .About span span span span , .About span span span span span , .About span span span span span span{
+    color: blue;
+}
+
+.About span span span span span span span , .About span span span span span span span span , .About span span span span span span span span span , .About span span span span span span span span span span{
+    color: blue;
+}
+
+.About-img{
+    position: fixed;
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top:  145px;
+}
+
+.Possion{
+    position: fixed;
+    color: darkblue;
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 132px;
+    text-decoration: underline;
+    text-shadow  : 0px 0px 4px rgb(0, 64, 255);
+}
+
+/* Skills Part */
+
+.title2{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 655px;
+    margin-top: 110px;
+    
+}
+
+.title2 span{
+    color: darkblue;
+}
+
+.Skills1{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+
+.Skills2{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+
+.Skills3{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 385px;
+    margin-left: 190px;
+}
+
+.Skills4{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 385px;
+    margin-left: 800px;
+}
+
+.Skills1:hover{
+    background-color: white;
+    box-shadow  : 0px 0px 10px white;
+    margin-top: 195px;
+    .Serv1{
+        color: black;
+    }
+    .Ti1{
+        color: black;
+    }
+}
+
+.Skills2:hover{
+    background-color: white;
+    box-shadow  : 0px 0px 10px white;
+    margin-top: 195px;
+    .Serv2{
+        color: black;
+    }
+    .Ti2{
+        color: black;
+    }
+}
+
+.Skills3:hover{
+    background-color: white;
+    box-shadow  : 0px 0px 10px white;
+    margin-top: 380px;
+    .Serv3{
+        color: black;
+    }
+    .Ti3{
+        color: black;
+    }
+}
+
+.Skills4:hover{
+    background-color: white;
+    box-shadow  : 0px 0px 10px white;
+    margin-top: 380px;
+    .Serv4{
+        color: black;
+    }
+    .Ti4{
+        color: black;
+    }
+}
+
+
+
+.Experience{
+    position: fixed;
+    font-size: 30px;
+    margin-left: 760px;
+    margin-top: 570px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Num{
+    position: fixed;
+    font-size: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    margin-left: 630px;
+    margin-top: 517px;
+
+}
+
+/* Contact Us Part */
+
+.title4{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 618px;
+    margin-top: 110px;
+}
+
+.title4 span{
+    color: darkblue;
+}
+
+.Chat{
+    position: fixed;
+    font-size: 25px;
+    padding: 16px 36px;
+    margin-left: 889px;
+    margin-top: 530px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 15px;
+    color: darkblue;
+    letter-spacing: 3px;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+
+}
+
+.Chat:hover{
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    background-color: rgb(0, 64, 255);
+    color: rgb(206, 206, 206);
+}
+
+.Cont1{
+    position: fixed;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 350px;
+    margin-top: 220px;
+
+}
+
+.Cont2{
+    position: fixed;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 350px;
+    margin-top: 314px;
+
+}
+
+.Cont3{
+    position: fixed;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 350px;
+    margin-top: 408px;
+
+}
+
+.Cont4{
+    position: fixed;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 350px;
+    margin-top: 502px;
+
+}
+
+.Cont5{
+    position: fixed;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 200px;
+    margin-left: 800px;
+    margin-top: 220px;
+
+}
+
+/* Srevices Part */
+
+.title5{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 675px;
+    margin-top: 90px;
+}
+
+.Box-Shadow{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 175px;
+    margin-left: 290px;
+}
+
+.Tit{
+    color: rgb(255, 255, 255);
+}
+
+.List1{
+    color: rgb(255, 255, 255);
+}
+
+.Box-Shadow:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow  : 0px 0px 20px white;
+    margin-top: 170px;
+    color: grey;
+    .List1{
+    color: rgb(0, 0, 0);
+}
+.Tit{
+    color: rgb(0, 0, 0);
+}
+}
+
+.Box-Shadow2{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 175px;
+    margin-left: 810px;
+}
+
+.Tit2{
+    color: rgb(255, 255, 255);
+}
+    
+.List2{
+    color: rgb(255, 255, 255);
+}
+
+.Box-Shadow2:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow  : 0px 0px 20px white;
+    margin-top: 170px;
+    color: grey;
+    .List2{
+    color: rgb(0, 0, 0);
+}
+.Tit2{
+    color: rgb(0, 0, 0);
+}
+}
+
+
+.Box-Shadow3{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 430px;
+    margin-left: 810px;
+}
+
+.Tit3{
+    color: rgb(255, 255, 255);
+}
+    
+.List3{
+    color: rgb(255, 255, 255);
+}
+
+.Box-Shadow3:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow  : 0px 0px 20px white;
+    margin-top: 425px;
+    color: grey;
+    .List3{
+    color: rgb(0, 0, 0);
+}
+.Tit3{
+    color: rgb(0, 0, 0);
+}
+}
+
+.Box-Shadow4{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 430px;
+    margin-left: 290px;
+}
+
+.Tit4{
+    color: rgb(255, 255, 255);
+}
+    
+.List4{
+    color: rgb(255, 255, 255);
+}
+
+.Box-Shadow4:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow  : 0px 0px 20px white;
+    margin-top: 425px;  
+    color: grey;
+    .List4{
+    color: rgb(0, 0, 0);
+}
+.Tit4{
+    color: rgb(0, 0, 0);
+}
+}
+
+/* SignUp Part */
+
+.Body{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.SignGround{
+    background-color: rgb(1, 1, 39);
+}
+
+.Box-Shadow0{
+    background-color: black;
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    margin-top: 110px;
+    margin-left: 574px;
+    border-radius: 50px;
+    padding: 30px 32px 30px 32px;
+    text-align: center;
+}
+
+.title6{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.title6 span{
+    color: darkblue;
+}
+
+.SignBtn{
+    font-size: 25px;
+    padding: 16px 36px;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 15px;
+    color: darkblue;
+    letter-spacing: 3px;
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+
+}
+
+.SignBtn:hover{
+    box-shadow  : 0px 0px 20px rgb(0, 64, 255);
+    background-color: rgb(0, 64, 255);
+    color: rgb(206, 206, 206);
+}
+
+
+.Sign1{
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.Sign2{
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.Sign3{
+    box-shadow  : 0px 0px 10px rgb(0, 64, 255);
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 120px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
